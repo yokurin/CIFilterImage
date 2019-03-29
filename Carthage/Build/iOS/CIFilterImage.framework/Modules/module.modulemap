@@ -1,0 +1,11 @@
+framework module CIFilterImage {
+  umbrella header "CIFilterImage.h"
+
+  export *
+  module * { export * }
+}
+
+module CIFilterImage.Swift {
+    header "CIFilterImage-Swift.h"
+    requires objc
+}
