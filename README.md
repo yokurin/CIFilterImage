@@ -1,8 +1,8 @@
 # CIFilterImage
 
 ## Overview
-CIFilterImage provides UI that can be easily filter images.
-This is Wrapper that CIFilter.
+CIFilterImage provides UI that can be easily filter images.  
+This is wrapper of CIFilter.
 
 ## Demo
 Here are some style of demos using `CIFilterImage`.
@@ -22,7 +22,7 @@ Here are some style of demos using `CIFilterImage`.
 ## Installation
 ### CocoaPods
 
-MemoryCache is available through [CocoaPods](https://cocoapods.org). To install
+CIFilterImage is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -42,7 +42,10 @@ and run `carthage update`
 
 ## Author
 
-Tsubasa Hayashi, yoku.rin.99@gmail.com
+Tsubasa Hayashi
+- Email: yoku.rin.99@gmail.com
+- [Github](https://github.com/yokurin)
+- [Twitter](https://twitter.com/_yokurin)
 
 ## License
 
