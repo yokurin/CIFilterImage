@@ -9,7 +9,7 @@ Here are some style of demos using `CIFilterImage`.
 
 | White Theme | Black Theme |
 |:---:|:---:|
-| <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/black.gif"> | <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/black.gif"> |
+| <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/white.gif"> | <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/black.gif"> |
 
 
 ## Requirements
