@@ -11,6 +11,7 @@ Here are some style of demos using `CIFilterImage`.
 |:---:|:---:|
 | <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/white.gif"> | <img src="https://github.com/yokurin/CIFilterImage/blob/master/READMEResorces/black.gif"> |
 
+// model: [Pintarest](https://www.pinterest.jp/pin/468304061251876816/)
 
 ## Requirements
 
@@ -19,11 +20,25 @@ Here are some style of demos using `CIFilterImage`.
 - Swift 5.0+
 
 ## Installation
+### CocoaPods
 
+MemoryCache is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
 ```ruby
+pod 'CIFilterImage'
+```
+
+### Carthage
+
+You can integrate via [Carthage](https://github.com/carthage/carthage), too.
+Add the following line to your `Cartfile` :
 
 ```
+github "yokurin/CIFilterImage"
+```
+
+and run `carthage update`
 
 ## Author
 

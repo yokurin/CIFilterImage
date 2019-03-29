@@ -5,7 +5,6 @@
 //  Created by Tsubasa Hayashi on 2019/03/29.
 //  Copyright © 2019 Tsubasa Hayashi. All rights reserved.
 //
-//https://www.pinterest.jp/pin/468304061251876816/
 
 import UIKit
 import CoreImage
