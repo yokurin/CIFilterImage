@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CIFilterImage-Example.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CIFilterImage.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

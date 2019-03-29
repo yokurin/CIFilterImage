@@ -8,12 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		B92DFE74224E190800A7E25A /* CIFilterImage.h in Headers */ = {isa = PBXBuildFile; fileRef = B92DFE72224E190800A7E25A /* CIFilterImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B92DFE7C224E193C00A7E25A /* CIFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE7B224E193C00A7E25A /* CIFilterViewController.swift */; };
+		B92DFE7F224E197000A7E25A /* CIFilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE7D224E197000A7E25A /* CIFilterCollectionViewCell.swift */; };
+		B92DFE80224E197000A7E25A /* CIFilterCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92DFE7E224E197000A7E25A /* CIFilterCollectionViewCell.xib */; };
+		B92DFE82224E1A0E00A7E25A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE81224E1A0E00A7E25A /* Filter.swift */; };
+		B92DFE84224E1A2200A7E25A /* CIFilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE83224E1A2200A7E25A /* CIFilterService.swift */; };
+		B92DFE8C224E1A9400A7E25A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE8B224E1A9400A7E25A /* AppDelegate.swift */; };
+		B92DFE8E224E1A9400A7E25A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92DFE8D224E1A9400A7E25A /* ViewController.swift */; };
+		B92DFE91224E1A9400A7E25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92DFE8F224E1A9400A7E25A /* Main.storyboard */; };
+		B92DFE93224E1A9500A7E25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92DFE92224E1A9500A7E25A /* Assets.xcassets */; };
+		B92DFE96224E1A9500A7E25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B92DFE94224E1A9500A7E25A /* LaunchScreen.storyboard */; };
+		B92DFE9D224E1AC400A7E25A /* CIFilterImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92DFE6F224E190800A7E25A /* CIFilterImage.framework */; };
+		B92DFE9E224E1AC400A7E25A /* CIFilterImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B92DFE6F224E190800A7E25A /* CIFilterImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B92DFE9F224E1AC400A7E25A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B92DFE66224E190800A7E25A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92DFE6E224E190800A7E25A;
+			remoteInfo = CIFilterImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B92DFEA1224E1AC400A7E25A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B92DFE9E224E1AC400A7E25A /* CIFilterImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B92DFE6F224E190800A7E25A /* CIFilterImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CIFilterImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92DFE72224E190800A7E25A /* CIFilterImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIFilterImage.h; sourceTree = "<group>"; };
 		B92DFE73224E190800A7E25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92DFE7B224E193C00A7E25A /* CIFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterViewController.swift; sourceTree = "<group>"; };
+		B92DFE7D224E197000A7E25A /* CIFilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		B92DFE7E224E197000A7E25A /* CIFilterCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CIFilterCollectionViewCell.xib; sourceTree = "<group>"; };
+		B92DFE81224E1A0E00A7E25A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		B92DFE83224E1A2200A7E25A /* CIFilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIFilterService.swift; sourceTree = "<group>"; };
+		B92DFE89224E1A9400A7E25A /* CIFilterImage-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIFilterImage-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92DFE8B224E1A9400A7E25A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B92DFE8D224E1A9400A7E25A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B92DFE90224E1A9400A7E25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B92DFE92224E1A9500A7E25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92DFE95224E1A9500A7E25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B92DFE97224E1A9500A7E25A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +72,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B92DFE86224E1A9400A7E25A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92DFE9D224E1AC400A7E25A /* CIFilterImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				B92DFE71224E190800A7E25A /* CIFilterImage */,
+				B92DFE8A224E1A9400A7E25A /* CIFilterImage-Example */,
 				B92DFE70224E190800A7E25A /* Products */,
+				B92DFE9B224E1ABC00A7E25A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B92DFE6F224E190800A7E25A /* CIFilterImage.framework */,
+				B92DFE89224E1A9400A7E25A /* CIFilterImage-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +105,43 @@
 		B92DFE71224E190800A7E25A /* CIFilterImage */ = {
 			isa = PBXGroup;
 			children = (
-				B92DFE72224E190800A7E25A /* CIFilterImage.h */,
+				B92DFE7A224E192800A7E25A /* Sources */,
 				B92DFE73224E190800A7E25A /* Info.plist */,
 			);
 			path = CIFilterImage;
+			sourceTree = "<group>";
+		};
+		B92DFE7A224E192800A7E25A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B92DFE72224E190800A7E25A /* CIFilterImage.h */,
+				B92DFE7B224E193C00A7E25A /* CIFilterViewController.swift */,
+				B92DFE7D224E197000A7E25A /* CIFilterCollectionViewCell.swift */,
+				B92DFE7E224E197000A7E25A /* CIFilterCollectionViewCell.xib */,
+				B92DFE81224E1A0E00A7E25A /* Filter.swift */,
+				B92DFE83224E1A2200A7E25A /* CIFilterService.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B92DFE8A224E1A9400A7E25A /* CIFilterImage-Example */ = {
+			isa = PBXGroup;
+			children = (
+				B92DFE8B224E1A9400A7E25A /* AppDelegate.swift */,
+				B92DFE8D224E1A9400A7E25A /* ViewController.swift */,
+				B92DFE8F224E1A9400A7E25A /* Main.storyboard */,
+				B92DFE92224E1A9500A7E25A /* Assets.xcassets */,
+				B92DFE94224E1A9500A7E25A /* LaunchScreen.storyboard */,
+				B92DFE97224E1A9500A7E25A /* Info.plist */,
+			);
+			path = "CIFilterImage-Example";
+			sourceTree = "<group>";
+		};
+		B92DFE9B224E1ABC00A7E25A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +176,40 @@
 			productReference = B92DFE6F224E190800A7E25A /* CIFilterImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B92DFE88224E1A9400A7E25A /* CIFilterImage-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92DFE98224E1A9500A7E25A /* Build configuration list for PBXNativeTarget "CIFilterImage-Example" */;
+			buildPhases = (
+				B92DFE85224E1A9400A7E25A /* Sources */,
+				B92DFE86224E1A9400A7E25A /* Frameworks */,
+				B92DFE87224E1A9400A7E25A /* Resources */,
+				B92DFEA1224E1AC400A7E25A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B92DFEA0224E1AC400A7E25A /* PBXTargetDependency */,
+			);
+			name = "CIFilterImage-Example";
+			productName = "CIFilterImage-Example";
+			productReference = B92DFE89224E1A9400A7E25A /* CIFilterImage-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B92DFE66224E190800A7E25A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Tsubasa Hayashi";
 				TargetAttributes = {
 					B92DFE6E224E190800A7E25A = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					B92DFE88224E1A9400A7E25A = {
 						CreatedOnToolsVersion = 10.2;
 					};
 				};
@@ -104,6 +220,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = B92DFE65224E190800A7E25A;
 			productRefGroup = B92DFE70224E190800A7E25A /* Products */;
@@ -111,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				B92DFE6E224E190800A7E25A /* CIFilterImage */,
+				B92DFE88224E1A9400A7E25A /* CIFilterImage-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +238,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92DFE80224E197000A7E25A /* CIFilterCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92DFE87224E1A9400A7E25A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92DFE96224E1A9500A7E25A /* LaunchScreen.storyboard in Resources */,
+				B92DFE93224E1A9500A7E25A /* Assets.xcassets in Resources */,
+				B92DFE91224E1A9400A7E25A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,10 +259,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92DFE7F224E197000A7E25A /* CIFilterCollectionViewCell.swift in Sources */,
+				B92DFE82224E1A0E00A7E25A /* Filter.swift in Sources */,
+				B92DFE7C224E193C00A7E25A /* CIFilterViewController.swift in Sources */,
+				B92DFE84224E1A2200A7E25A /* CIFilterService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92DFE85224E1A9400A7E25A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92DFE8E224E1A9400A7E25A /* ViewController.swift in Sources */,
+				B92DFE8C224E1A9400A7E25A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B92DFEA0224E1AC400A7E25A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92DFE6E224E190800A7E25A /* CIFilterImage */;
+			targetProxy = B92DFE9F224E1AC400A7E25A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B92DFE8F224E1A9400A7E25A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92DFE90224E1A9400A7E25A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B92DFE94224E1A9500A7E25A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B92DFE95224E1A9500A7E25A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B92DFE75224E190800A7E25A /* Debug */ = {
@@ -188,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +430,34 @@
 		B92DFE78224E190800A7E25A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BE69EUEJNJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CIFilterImage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.yokurin.CIFilterImage;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92DFE79224E190800A7E25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -281,30 +478,45 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B92DFE79224E190800A7E25A /* Release */ = {
+		B92DFE99224E1A9500A7E25A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BE69EUEJNJ;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CIFilterImage/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INFOPLIST_FILE = "CIFilterImage-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = app.yokurin.CIFilterImage;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.yokurin.CIFilterImage-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B92DFE9A224E1A9500A7E25A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BE69EUEJNJ;
+				INFOPLIST_FILE = "CIFilterImage-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "app.yokurin.CIFilterImage-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -325,6 +537,15 @@
 			buildConfigurations = (
 				B92DFE78224E190800A7E25A /* Debug */,
 				B92DFE79224E190800A7E25A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B92DFE98224E1A9500A7E25A /* Build configuration list for PBXNativeTarget "CIFilterImage-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92DFE99224E1A9500A7E25A /* Debug */,
+				B92DFE9A224E1A9500A7E25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
