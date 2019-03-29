@@ -9,7 +9,7 @@
 import UIKit
 
 public protocol CIFilterViewControllerDelegate {
-    func didFilter(_ image: UIImage)
+    func didFinish(_ image: UIImage)
     func didCancel()
 }
 
@@ -103,16 +103,12 @@ open class CIFilterViewController: UIViewController {
     }
 
     @objc private func cancelButtonTapped() {
-        if let delegate = self.delegate {
-            delegate.didCancel()
-        }
+        delegate?.didCancel()
         dismiss(animated: true, completion: nil)
     }
 
     @objc private func doneButtontapped() {
-        if let delegate = self.delegate {
-            delegate.didFilter(imageView.image!)
-        }
+        delegate?.didFinish(imageView.image!)
         dismiss(animated: true, completion: nil)
     }
 

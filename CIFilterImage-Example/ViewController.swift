@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: CIFilterViewControllerDelegate {
-    func didFilter(_ image: UIImage) {
+    func didFinish(_ image: UIImage) {
         print("image", image)
         let imageView = UIImageView(image: image)
         imageView.contentMode = .scaleAspectFit
