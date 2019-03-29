@@ -18,6 +18,40 @@ Here are some style of demos using `CIFilterImage`.
 
 // model: [Pintarest](https://www.pinterest.jp/pin/468304061251876816/)
 
+## Example
+Open `CIFilterImage.xcodeproj` and run `CIFilterImage-Example`.
+
+## Usages
+```swift
+// Create CIFilterViewController
+let vc = CIFilterViewController()
+vc.image = UIImage(named: "sample")
+
+// customize color
+vc.backgroundColor = .white
+vc.textColor = .black
+
+// set delegate
+vc.delegate = self
+
+```
+
+```swift
+extension ViewController: CIFilterViewControllerDelegate {
+    // Called when Done Button Tapped
+    func didFinish(_ image: UIImage) {
+        print("image", image)
+    }
+    
+    // Called when Cancel Button Tapped
+    func didCancel() {
+        print("did Cancel")
+    }
+}
+
+
+```
+
 ## Requirements
 
 - iOS 11.4+
