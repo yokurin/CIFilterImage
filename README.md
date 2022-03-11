@@ -54,7 +54,7 @@ extension ViewController: CIFilterViewControllerDelegate {
 
 ## Requirements
 
-- iOS 11.4+
+- iOS 11.4+ (12+ for SPM)
 - Xcode 10.2+
 - Swift 5.0+
 
@@ -78,6 +78,10 @@ github "yokurin/CIFilterImage"
 ```
 
 and run `carthage update`
+
+### SPM
+
+Just add the repo URL in Xcode
 
 ## Author
 

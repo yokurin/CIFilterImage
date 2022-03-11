@@ -51,7 +51,7 @@ open class CIFilterViewController: UIViewController {
         collectionView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
         collectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         collectionView.heightAnchor.constraint(equalToConstant: 144).isActive = true
-        collectionView.register(UINib(nibName: "CIFilterCollectionViewCell", bundle: Bundle(for: self.classForCoder)), forCellWithReuseIdentifier: "CIFilterCollectionViewCell")
+		collectionView.register(UINib(nibName: "CIFilterCollectionViewCell", bundle: Bundle.module), forCellWithReuseIdentifier: "CIFilterCollectionViewCell")
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.showsHorizontalScrollIndicator = false

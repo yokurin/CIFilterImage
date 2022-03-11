@@ -6,6 +6,8 @@
 //  Copyright © 2019 Tsubasa Hayashi. All rights reserved.
 //
 
+// More filters: https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html
+
 import UIKit
 import CoreImage
 
